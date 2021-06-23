@@ -13,7 +13,7 @@ header {
     height: 1080px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("../resource/img/header_background.png");
+    background-image: url("../resource/img/index_header_background.jpg");
 
     color: white;
 }
@@ -24,16 +24,54 @@ header {
 
 #header_menubar div {
     display: inline;
-    font-size: 20px;
-    margin-right: 20px;
+    font-family: "sandoll neo1";
 }
 
 #header_menu {
-    float: left;
+    position: absolute;
+    left: 20%;
+    top: 60px;
 }
 #header_gnb {
-    float: right;
+    position: absolute;
+    right: 20%;
+    top: 60px;
 }
+
+#header_logo {
+    width: 100px;
+    height: 200px;
+    background-color: lavender;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+
+}
+
+
+#header_menu div {
+    display: inline;
+    font-size: 18px;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+
+#header_gnb div {
+    display: inline;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+
+
+#header_intro {
+    font-family: "카페24 고운밤";
+    position: absolute;
+    top: 500px;
+}
+
+
 
 
 
