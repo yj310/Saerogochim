@@ -24,37 +24,37 @@ header {
 
 #header_menubar div {
     display: inline;
-    font-family: "sandoll neo1";
+    font-family: "Noto Sans KR";
 }
 
 #header_menu {
     position: absolute;
-    left: 20%;
+    left: 19%;
     top: 60px;
 }
-#header_gnb {
-    position: absolute;
-    right: 20%;
-    top: 60px;
-}
-
-#header_logo {
-    width: 90px;
-    height: 90px;
-    background-color: lavender;
-    position: absolute;
-    left: 50%;
-    top: 30px;
-    margin-left: -45px;
-
-}
-
 
 #header_menu div {
     display: inline;
     font-size: 18px;
     margin-right: 40px;
     margin-top: 60px;
+}
+
+#header_logo {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -100px;
+    margin-top: -30px;
+
+}
+
+#header_gnb {
+    position: absolute;
+    right: 19%;
+    top: 60px;
 }
 
 #header_gnb div {
@@ -66,14 +66,17 @@ header {
 
 
 
+
+
 #header_intro {
     font-family: "카페24 고운밤";
     position: absolute;
     top: 390px;
+    left: 19%;
     font-size: 50pt;
 }
 
-#short_line {
+#header_intro #short_line {
     margin-top: 40px;
     width: 40px;
     height: 4px;
@@ -85,34 +88,114 @@ header {
 
 
 
-div#main {
+#main {
     background-color: azure;
+    font-family: "Noto Sans KR";
 }
 
-div#container_bastitem {
+#main .container {
+    padding: 0 20%;
+}
+
+
+
+
+
+
+#container_bestitem {
     background-color: beige;
+    margin-top: 200px;
 }
 
-div#container_todaydesigner {
+#bestitem_list {
+    position: absolute;
+    left: 19%;
+}
+
+#bestitem_best {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#bestitem_list #short_line {
+    width: 40px;
+    height: 3px;
+    background-color: gray;
+    border-radius: 30px;
+}
+
+#bestitem_category div {
+    width: 115px;
+    font-size: 18px;
+    padding: 4px 0 4px 25px;
+    border-radius: 30px;
+    border: #616161 solid 3px;
+    margin-bottom: 20px;
+    
+}
+
+#bestitem_table {
+    background-color: #616161;
+    color: white;
+}
+
+#bestitem_drawer, #bestitem_frame, #bestitem_acc {
+    background-color: white;
+    color: #aaaaaa;
+}
+
+
+#bestitem_items {
+    position: absolute;
+    right: 19%;
+}
+
+#bestitem_items table tr td img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#bestitem_items_more {
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    color: lightgray;
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#container_todaydesigner {
     background-color: bisque;
 }
 
-div#container_banner {
+#container_banner {
     background-color: cornsilk;
 }
 
-div#container_review {
+#container_review {
     background-color: darksalmon;
 }
 
-div#container_list {
+#container_list {
     background-color: gainsboro;
 }
 
-div#container_blankspace {
+#container_blankspace {
     background-color: honeydew;
 }
 
-div#container_apply {
+#container_apply {
     background-color: ivory;
 }
