@@ -48,6 +48,7 @@ header {
     top: 0;
     margin-left: -100px;
     margin-top: -30px;
+    filter: invert(92%) sepia(0%) saturate(7497%) hue-rotate(36deg) brightness(110%) contrast(100%);
 
 }
 
@@ -57,14 +58,28 @@ header {
     top: 60px;
 }
 
-#header_gnb div {
-    display: inline;
-    font-size: 18px;
-    margin-left: 50px;
-    margin-top: 60px;
+#header_gnb ul li img {
+    margin-top: 5px;
+    height: 20px;
+    filter: invert(92%) sepia(0%) saturate(7497%) hue-rotate(36deg) brightness(210%) contrast(100%);
 }
 
+#header_gnb_login {
+    text-align: center;
+    height: 30px;
+    width: 50px;
+}
 
+#header_gnb ul {
+    list-style: none;
+}
+
+#header_gnb ul li {
+    text-align: center;
+    float:left;
+    margin-left: 60px;
+    font-size: 18px;
+}
 
 
 
