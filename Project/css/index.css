@@ -39,12 +39,13 @@ header {
 }
 
 #header_logo {
-    width: 100px;
-    height: 200px;
+    width: 90px;
+    height: 90px;
     background-color: lavender;
     position: absolute;
     left: 50%;
-    margin-left: -50px;
+    top: 30px;
+    margin-left: -45px;
 
 }
 
@@ -68,7 +69,16 @@ header {
 #header_intro {
     font-family: "카페24 고운밤";
     position: absolute;
-    top: 500px;
+    top: 390px;
+    font-size: 50pt;
+}
+
+#short_line {
+    margin-top: 40px;
+    width: 40px;
+    height: 4px;
+    background-color: white;
+    border-radius: 30px;
 }
 
 
