@@ -10,7 +10,7 @@
 
 header {
     width: 100%;
-    height: 1080px;
+    height: 1140px;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("../resource/img/furniture/banner_1.jpg");
@@ -108,7 +108,6 @@ header {
 }
 
 #main .container {
-    padding: 0 20%;
 }
 
 
@@ -127,7 +126,7 @@ header {
 }
 
 
-
+/*####################################*/
 
 #container_bestitem {
     margin-top: 200px;
@@ -186,16 +185,18 @@ header {
 
 
 
+/*####################################*/
 
 
-
-#todaydesigner_title_area {
-    position: absolute;
-
-}
 
 #container_todaydesigner {
     height: 1700px;
+}
+
+#todaydesigner_title_area {
+    position: absolute;
+    left: 19%;
+
 }
 
 #mimi_baby {
@@ -274,6 +275,7 @@ header {
 
 
 
+/*####################################*/
 
 
 
@@ -284,8 +286,44 @@ header {
 
 
 #container_banner {
-    background-color: cornsilk;
+    height: 650px;
+    background-image: url("../resource/img/furniture/banner_3.jpg");
+    background-position: 0 -550px;
+    background-size: cover;
+    filter: brightness(0.8);
+
 }
+
+#container_banner #banner {
+    position: absolute;
+    left: 20%;
+}
+
+#banner_text {
+    margin-top: 200px;
+    color: white;
+    font-size: 48px;
+}
+
+#banner_button {
+    margin-top: 100px;
+    background-color: #ffffff55;
+    width: 430px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 #container_review {
     background-color: darksalmon;
