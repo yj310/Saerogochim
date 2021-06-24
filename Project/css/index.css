@@ -256,7 +256,7 @@ header {
     left: 585px;
     background-color: white;
     width: 700px;
-    height: 675px;
+    height: 715px;
 }
 
 #mention_instargram {
@@ -323,11 +323,64 @@ header {
 
 
 
+/*####################################*/
+
+
+
 
 
 #container_review {
-    background-color: darksalmon;
+    height: 1700px;
 }
+
+#review_list {
+    margin-top: 640px;
+    position: absolute;
+    left: 19%;
+}
+
+#review_title_area {
+    position: absolute;
+    left: 19%;
+}
+
+#review_items {
+}
+
+#review_items table tr td img {
+    width: 400px;
+    height: 510px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#review_item_first {
+    position: absolute;
+    left: 310px;
+    top: 0;
+}
+
+#review_item_second {
+    position: absolute;
+    left: 733px;
+    top: 0;
+
+}
+
+#review_item_third {
+    position: absolute;
+    left: 1156px;
+    top: 0;
+
+}
+
+
+
+
+
+
+
+
 
 #container_list {
     background-color: gainsboro;
