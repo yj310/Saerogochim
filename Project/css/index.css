@@ -391,7 +391,7 @@ header {
 
 
 #container_category {
-    height: 1700px;
+    height: 700px;
 }
 
 #category_list { 
@@ -437,6 +437,11 @@ header {
 
 
 
+/*####################################*/
+
+
+
+
 
 
 #container_blankspace {
@@ -445,4 +450,34 @@ header {
 
 #container_apply {
     background-color: ivory;
+}
+
+
+
+footer {
+    background-color: #f0f0f0;
+    padding: 50px 350px 0;
+    height: 600px;
+}
+
+#footer_logo {
+    display: inline;
+    width: 200px;
+    filter: invert(92%) sepia(0%) saturate(7497%) hue-rotate(36deg) brightness(70%) contrast(100%);
+}
+
+#footer_logo img {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+#footer_text {
+    margin-left: 50px;
+    margin-top: 50px;
+    line-height: 40px;
+    float: left;
+    font-family: "Noto Sans KR";
+    font-size: 21px;
+    color: #aaaaaa;
 }
