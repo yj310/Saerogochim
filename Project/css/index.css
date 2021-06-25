@@ -342,6 +342,7 @@ header {
 #review_title_area {
     position: absolute;
     left: 19%;
+    width: 500px
 }
 
 #review_items {
@@ -382,9 +383,61 @@ header {
 
 
 
-#container_list {
-    background-color: gainsboro;
+/*####################################*/
+
+
+
+
+
+
+#container_category {
+    height: 1700px;
 }
+
+#category_list { 
+    height: 150px;
+    width: 100%;
+    padding: 50px 0;
+    box-shadow: 0 0 10px lightgray ;
+}
+
+#category_items {
+    height: 150px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.category_item {
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    display: inline;
+    float: left;
+
+}
+
+.category_item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+#category_item_bed, #category_item_closet, #category_item_shoerack, #category_item_desk 
+, #category_item_chair, #category_item_narrowtable {
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 #container_blankspace {
     background-color: honeydew;
