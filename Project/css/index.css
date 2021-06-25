@@ -233,7 +233,7 @@ header {
 
 #black_bar {
     position: absolute;
-    left: 455px;
+    left: 605px;
     margin-top: 380px;
 
     background-color: #403731;
@@ -243,7 +243,7 @@ header {
 
 #white_area1 {
     position: absolute;
-    left: 495px;
+    left: 645px;
     margin-top: 420px;
     background-color: white;
     width: 740px;
@@ -253,7 +253,7 @@ header {
 #white_area2 {
     position: absolute;
     margin-top: 295px;
-    left: 635px;
+    left: 785px;
     background-color: white;
     width: 700px;
     height: 715px;
